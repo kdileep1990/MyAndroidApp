@@ -44,6 +44,9 @@ Hello Cordova
     <preference
         name="loglevel"
         value="DEBUG" />
+    <preference
+        name="android-installLocation"
+        value="auto" />
     <!--
       <preference name="splashscreen" value="resourceName" />
       <preference name="backgroundColor" value="0xFFF" />
