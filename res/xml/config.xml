@@ -155,10 +155,10 @@ Hello Cordova
         required="true" >
         <param
             name="domain"
-            value="http://debug.custom.com" />
+            value=" http://debug.build.phonegap.com" />
         <param
             name="key"
-            value="some_unique_key" />
+            value="a1ab9d0a-e54b-11e2-b102-22000a98b3d6" />
     </feature>
     <!-- Deprecated plugins element. Remove in 3.0 -->
     <plugins>
