@@ -47,6 +47,13 @@ Hello Cordova
     <preference
         name="android-installLocation"
         value="auto" />
+        <preference name="splash-screen-duration" value="3000" />
+    <preference name="load-url-timeout" value="20000" />
+    <preference name="disable-cursor" value="false" />
+        
+    <!-- PHONEGAP API FEATURES PREFERENCES -->
+        
+    <preference name="permissions" value="none"/>
     <!--
       <preference name="splashscreen" value="resourceName" />
       <preference name="backgroundColor" value="0xFFF" />
