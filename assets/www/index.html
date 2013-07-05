@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Acceleration Example</title>
+
+<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+	// Wait for device API libraries to load
+	//
+	document.addEventListener("deviceready", onDeviceReady, false);
+
+	// device APIs are available
+	//
+	function onDeviceReady() {
+		navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
+	}
+
+	// onSuccess: Get a snapshot of the current acceleration
+	//
+	function onSuccess(acceleration) {
+		alert('Acceleration X: ' + acceleration.x + '\n' + 'Acceleration Y: '
+				+ acceleration.y + '\n' + 'Acceleration Z: ' + acceleration.z
+				+ '\n' + 'Timestamp: ' + acceleration.timestamp + '\n');
+	}
+
+	// onError: Failed to get the acceleration
+	//
+	function onError() {
+		alert('onError!');
+	}
+</script>
+</head>
+<body>
+	<h1>Example</h1>
+	<p>getCurrentAcceleration</p>
+	<a href="https://semanticbitsindia.mybinja.com/public/decoratedLogin">binja</a>
+	<a href="http://192.168.2.3:8010/PracticePerfect">binja</a>
+	<a href="index.html" data-role="button" data-inline="true">Cancel</a>
+<a href="index.html" data-role="button" data-inline="true" data-theme="b">Save</a>
+</body>
+</html>
