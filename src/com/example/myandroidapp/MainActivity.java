@@ -21,11 +21,11 @@ public class MainActivity extends /* Activity */DroidGap {
 				|| checkScreenSize().equals("xlarge")) {
 			super.onCreate(savedInstanceState);
 			super.init();
-			super.loadUrl("file:///android_asset/www/index.html");
+			super.loadUrl("file:///android_asset/www/login.html");
 		} else {
 			super.onCreate(savedInstanceState);
 			super.init();
-			super.loadUrl("file:///android_asset/www/index.html");
+			super.loadUrl("file:///android_asset/www/login.html");
 		}
 	}
 
